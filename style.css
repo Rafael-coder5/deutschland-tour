@@ -1,7 +1,7 @@
 body
 {
-	background-color: #FF0000;
-	color: #000000; 
+	background-color: #000000;
+	color: #FFFF00; 
 	text-shadow:
-		0 0 7px yellow
+		0 0 7px red
 }
