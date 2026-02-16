@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Deutschland-Tour</title>
+<style>
+body {font-family: Arial; max-width: 800px; margin: auto; padding: 20px;}
+h1 {text-align:center;}
+.etappe {padding:10px; border-bottom:1px solid #ddd;}
+a {text-decoration:none; color:#0066cc; font-size:18px;}
+</style>
+</head>
+<body>
+
+<h1>Deutschland-Tour</h1>
+
+<div id="liste"></div>
+
+<script>
+const liste = document.getElementById("liste");
+
+for (let i = 1; i <= 15; i++) {
+  const div = document.createElement("div");
+  div.className = "etappe";
+  div.innerHTML = `<a href="etappen/etappe${i}.html">Etappe ${i}</a>`;
+  liste.appendChild(div);
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+

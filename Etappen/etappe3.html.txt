@@ -1,0 +1,37 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Etappe 1</title>
+<style>
+body {font-family: Arial; max-width: 800px; margin:auto; padding:20px;}
+img {max-width:100%; margin:10px 0;}
+#edit {
+  position:fixed;
+  top:20px;
+  right:20px;
+  font-size:26px;
+  text-decoration:none;
+}
+</style>
+</head>
+<body>
+
+<a id="edit"
+   href="https://github.com/Rafael-coder5/deutschland-tour/edit/main/etappen/etappe1.html"
+   target="_blank">✏️</a>
+
+<h1>Etappe 1</h1>
+
+<p>Hier kannst du später deinen Text einfügen.</p>
+
+<img src="../bilder/placeholder.jpg">
+
+<p><a href="../index.html">← Zurück zur Übersicht</a></p>
+
+</body>
+</html>
